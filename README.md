@@ -3,7 +3,7 @@ This Project documents the process of launching EC2 instance and deploying Apach
 ## VPC Creation
 The VPC creation with CIDR of 10.0.0.0/16 was done by LITA to house resources in the AWS environment
 ## Security Group
-This security group was created with inbound rules to allow HTTP 80 and SSH 20 and outbound rule to allow traffic from anywhere.Below is details of the security group.                                                                          !{securitygroup}(/Screenshot_20241212_005515_png)
+This security group was created with inbound rules to allow HTTP 80 and SSH 20 and outbound rule to allow traffic from anywhere.Below is details of the security group.                                                                          !{securitygroup}(/Screenshot_20241212_005515_png/)
 ## Launching EC2 instance with Apache Web Server
 An EC2 instance launch.
 Below is each step taken
