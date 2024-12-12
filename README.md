@@ -1,4 +1,4 @@
-A# Lita_Aws_EC2_project
+# Lita_Aws_EC2_project
 This Project documents the process of launching EC2 instance and deploying Apache Web Server on it.
 ## vpc creation
 The VPC creation with CIDR of 10.0.0.0/16 was done by LITA to house resources in the AWS environment
@@ -29,7 +29,7 @@ Amount of storage was set to remain at 8gb
 Input information was checked to be correct from top to bottom
 #### Final launching of instance
 Instance was launched with 2/2 check pass seen after a few minutes of initializing. Instance status was seen to be running.
-# Connecting launched instance with Apache Web Server
+## Connecting launched instance with Apache Web Server
 The instance already launched and running was connected to the apache web server by clicking SSH security group.
 Key pair was located in the folder location and was opened in a terminal. After this, necessary commands were written even as due steps were followedband the apache was successfully created eventually. 
 Below is the apache test page evidence showing my EC2 public IP address 
