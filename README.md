@@ -19,7 +19,7 @@ public subnet_Lita
 This was created to serve as a unique identifier of resources
 Below is the key pair details.                                                                                            !{keypair details}(/jewelkeypair.pem)
 #### Editing of Network Settings
-In this part, the auto-assign public IP is set to enable
+In this part, the auto-assign public IP was set to enable
 #### Storage configuration
 Amount of storage was set to remain at 8gb
 #### Review of processes done in launching instance
