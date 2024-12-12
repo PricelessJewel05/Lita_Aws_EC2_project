@@ -23,7 +23,7 @@ In this part, the auto-assign public IP is set to enable
 #### Storage configuration
 Amount of storage was set to remain at 8gb
 #### Review of processes done in launching instance
-Input information was checked to be correct from top to bottom
+Input data was checked to be correct from top to bottom
 #### Final launching of instance
 Instance was launched with 2/2 check pass seen after a few minutes of initializing. Instance status was seen to be running.
 Belown is details of running instance.                                                                                    !{instance}(/launchinstance.png)
