@@ -29,6 +29,8 @@ Amount of storage was set to remain at 8gb
 Input information was checked to be correct from top to bottom
 #### Final launching of instance
 Instance was launched with 2/2 check pass seen after a few minutes of initializing. Instance status was seen to be running.
+Belown is details of running instance
+!{instance}(/launchinstance.png)
 ## Connecting launched instance with Apache Web Server
 The instance already launched and running was connected to the apache web server by clicking SSH security group.
 Key pair was located in the folder location and was opened in a terminal. After this, necessary commands were written even as due steps were followedband the apache was successfully created eventually. 
