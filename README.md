@@ -5,7 +5,7 @@ The VPC creation with CIDR of 10.0.0.0/16 was done by LITA to house resources in
 ## Security Group
 This security group was created with inbound rules to allow HTTP 80 and SSH 20 and outbound rule to allow traffic from anywhere.
 Below is details of the security group
-!{security group}(/Screenshot_20241212-005515.png)
+!{security group}(/Screenshot20241212005515.png)
 ## Launching EC2 instance with Apache Web Server
 An EC2 instance launch.
 Below is each step taken
