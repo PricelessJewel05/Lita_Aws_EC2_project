@@ -2,7 +2,7 @@
 This Project documents the process of launching EC2 instance and deploying Apache Web Server on it.
 # Configuration of a custom VPC
 Credit goes to LITA who already configured the VPC with each component details below.
-## VPC Creation
+### vpc creation
 The VPC creation with CIDR block of 10.0.0.0/16 was done by LITA to house resources in the AWS environment. 
 ### subnets
 public subnet with CIDR- 10.0.1.0/24 and private subnet with CIDR- 10.0.2.0/24 were created and distinctly named.
