@@ -11,7 +11,7 @@ Internet gateway was attached to a VPC. route table was assigned to a route dest
 ### NACL
 This was done to provide extra layer of security by attaching it to the public and private subnet with definition of inbound rule by allowing HTTP 80 and SSH 22 and outbound rules.
 ## Security Group
-This security group was created with inbound rules to allow HTTP 80 and SSH 20 and outbound rule to allow traffic from anywhere.Below is details of the security group.                                                                          !{security group}(/Screenshot_20241212_005515_png)
+This security group was created with inbound rules to allow HTTP 80 and SSH 20 and outbound rule to allow traffic from anywhere.Below is details of the security group.                                                                          ![security group](/Screenshot_20241212_005515_png)
 ## Launching EC2 instance with Apache Web Server
 An EC2 instance launch.
 Below is each step taken
