@@ -20,7 +20,7 @@ t2.micro
 public subnet_Lita
 #### creation of key pair
 This was created to serve as a unique identifier of resources
-Below is the key pair details.                                                                                            !{keypair details}(/jewelkeypair.pem)
+Below is the key pair details.                                                                                            !{keypair}(/jewelkeypair.pem)
 
 #### Editing of Network Settings
 In this part, the auto-assign public IP was set to enable
@@ -34,7 +34,7 @@ Instance was launched with 2/2 check pass seen after a few minutes of initializi
 ## Connecting launched instance with Apache Web Server
 The instance already launched and running was connected to the apache web server by clicking SSH security group.
 Key pair was located in the folder location and was opened in a terminal. After this, necessary commands were written even as due steps were followedband the apache was successfully created eventually. Below is the apache test page evidence showing my EC2 public IP address.                                                
-!{apache teatpage}(/testpage.png)
+!{testpage}(/testpage.png)
 
 ## Documentation of Project
 This was done on the repository created in GitHub account with the aid of README .
