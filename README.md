@@ -34,7 +34,7 @@ Instance was launched with 2/2 check pass seen after a few minutes of initializi
 ## Connecting launched instance with Apache Web Server
 The instance already launched and running was connected to the apache web server by clicking SSH security group.
 Key pair was located in the folder location and was opened in a terminal. After this, necessary commands were written even as due steps were followedband the apache was successfully created eventually. Below is the apache test page evidence showing my EC2 public IP address.                                                
-!{apache teatpage}(/apachetestpage.jpg)
+!{apache teatpage}(/testpage.png)
 
 ## Documentation of Project
 This was done on the repository created in GitHub account with the aid of README .
