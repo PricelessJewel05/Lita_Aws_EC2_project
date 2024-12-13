@@ -1,6 +1,6 @@
 # Lita_Aws_EC2_project
 This Project documents the process of launching EC2 instance and deploying Apache Web Server on it.
-# Configuration of a custom VPC
+## Configuration of a custom VPC
 Credit goes to LITA who already configured the VPC with each component details below.
 ### vpc creation
 The VPC creation with CIDR block of 10.0.0.0/16 was done by LITA to house resources in the AWS environment. 
