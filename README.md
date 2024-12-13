@@ -1,7 +1,15 @@
 # Lita_Aws_EC2_project
 This Project documents the process of launching EC2 instance and deploying Apache Web Server on it.
+# Configuration of a custom VPC
+Credit goes to LITA who already configured the VPC with each component details below.
 ## VPC Creation
-The VPC creation with CIDR of 10.0.0.0/16 was done by LITA to house resources in the AWS environment
+The VPC creation with CIDR block of 10.0.0.0/16 was done by LITA to house resources in the AWS environment. 
+### subnets
+public subnet with CIDR- 10.0.1.0/24 and private subnet with CIDR- 10.0.2.0/24 were created and distinctly named.
+### internet gateway
+Internet gateway was attached to a VPC. route table was assigned to a route destination of 0.0.0.0/0 with association to a public subnet.
+### NACL
+This was done to provide extra layer of security by attaching it to the public and private subnet with definition of inbound rule by allowing HTTP 80 and SSH 22 and outbound rules.
 ## Security Group
 This security group was created with inbound rules to allow HTTP 80 and SSH 20 and outbound rule to allow traffic from anywhere.Below is details of the security group.                                                                          !{security group}(/Screenshot_20241212_005515_png)
 ## Launching EC2 instance with Apache Web Server
@@ -16,7 +24,7 @@ t2.micro
 #### selection of public subnet created by Lita
 public subnet_Lita
 #### creation of key pair
-This was created to serve as a unique identifier of resources
+This was created to serve as a unique identifier of EC2 resource
 Below is the key pair details.                                                                                            !{keypair}(/jewelkeypair.pem)
 #### Editing of Network Settings
 In this part, the auto-assign public IP was set to enable
