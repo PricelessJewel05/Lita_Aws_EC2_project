@@ -25,7 +25,7 @@ t2.micro
 public subnet_Lita
 #### creation of key pair
 This was created to serve as a unique identifier of EC2 resource
-Below is the key pair details.                                                                                            !{keypair}(/jewelkeypair.pem)
+Below is the key pair details.                                                                                            ![keypair](/jewelkeypair.png)
 #### Editing of Network Settings
 In this part, the auto-assign public IP was set to enable
 #### Storage configuration
@@ -33,11 +33,11 @@ Amount of storage was set to remain at 8gb
 #### Review of processes done in launching instance
 Input data was checked to be correct from top to bottom
 #### Final launching of instance
-Instance was launched with 2/2 check pass seen after a few minutes of initializing. Instance status was seen to be running.Below is details of running instance.                                                                             !{instance}(/launchinstance.png)
+Instance was launched with 2/2 check pass seen after a few minutes of initializing. Instance status was seen to be running.Below is details of running instance.                                                                             ![instance](/launchinstance.png)
 ## Connecting launched instance with Apache Web Server
 The instance already launched and running was connected to the apache web server by clicking SSH security group.
 Key pair was located in the folder location and was opened in a terminal. After this, necessary commands were written even as due steps were followed and the apache was successfully created eventually. Below is the apache test page evidence showing my EC2 public IP address.                                                
-!{testpage}(/testpage.png)
+![testpage](/testpage.png)
 ## Documentation of Project
 This was done on the repository created in GitHub account with the aid of README .
 I ensured files were uploaded accordingly and correctly and thereafter,committing changes and updating README.
